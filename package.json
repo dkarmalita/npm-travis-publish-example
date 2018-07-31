@@ -1,6 +1,6 @@
 {
   "name": "@kard/npm-travis-publish-example",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "npm-travis-publish-example",
   "main": "index.js",
   "scripts": {
