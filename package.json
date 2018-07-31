@@ -1,12 +1,15 @@
 {
   "name": "@kard/npm-travis-publish-example",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "npm-travis-publish-example",
   "main": "index.js",
   "scripts": {
     "publish": "git push && git push --tags",
     "test": "jest",
     "test:dev": "jest --watch"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [],
   "author": "",
